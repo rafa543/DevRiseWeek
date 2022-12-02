@@ -8,10 +8,10 @@ import { personagens } from "../../data";
 export default function Home() {
     return (
         <View style={styles.container}>
-            <ScrollView>
+            <ScrollView style={styles.container}>
                 <Hinglight />
-                <ListItems filmes={filmes}/>
-                <ListItems filmes={personagens}/>
+                <ListItems filmes={filmes} title={"Filmes"}/>
+                <ListItems filmes={personagens} title={"Personagens"}/>
             </ScrollView>
         </View>
     )
