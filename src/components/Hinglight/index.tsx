@@ -5,7 +5,8 @@ import { styles } from "./styles";
 export default function Hinglight() {
     return (
         <ImageBackground source={require("../../assets/capa.png")} resizeMode="cover" style={styles.image}>
-            <View style={{ marginTop: "65%" }}>
+            {/* <View style={{ marginTop: "65%" }}> */}
+            <View style={{ marginTop: 250 }}>
                 <View style={styles.capa}>
                     <View style={styles.tag}>
                         <Text style={styles.tagTitle}>Filme</Text>
